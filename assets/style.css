@@ -1,0 +1,58 @@
+body {
+	background-color: #000;
+}
+
+.clock{
+	background-color: #DDDDDD;
+	border-radius: 100%;
+	border: 3px solid #AAAAAA;
+	height: 500px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	width: 500px;
+}
+
+.twelve {
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  background: #111111;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.three{
+	position: absolute;
+	width: 3px;
+	height: 15px;
+	background: #111111;
+	left: 0;
+	top: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.six{
+	position: absolute;
+	width: 3px;
+	height: 15px;
+	background: #111111;
+	left: 0;
+	top: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.nine{
+	postion: absolute;
+	width: 3px;
+	height: 15px;
+	background: #111111;
+	left: 0;
+	top: 0;
+	right: 0;
+	margin: 0 auto;
+}
