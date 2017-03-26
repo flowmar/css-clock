@@ -29,10 +29,10 @@ body {
 	width: 3px;
 	height: 15px;
 	background: #111111;
-	left: 0;
+	bottom: 0;
 	top: 0;
 	right: 0;
-	margin: 0 auto;
+	margin: auto 0;
 }
 
 .six{
@@ -41,18 +41,57 @@ body {
 	height: 15px;
 	background: #111111;
 	left: 0;
-	top: 0;
+	bottom: 0;
 	right: 0;
 	margin: 0 auto;
 }
 
 .nine{
-	postion: absolute;
+	position: absolute;
 	width: 3px;
 	height: 15px;
 	background: #111111;
-	left: 0;
-	top: 0;
-	right: 0;
-	margin: 0 auto;
+	left: 0; top: 0; bottom: 0;
+	margin: auto 0;
+}
+
+.center {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 0; right: 0; bottom: 0; top: 0;
+	margin: auto;
+	background: #000;
+	border-radius: 100% ;
+}
+
+#seconds {
+	position: absolute;
+	height: 160px;
+	width: 2px;
+	left: 0; right: 0; bottom: 160px; top: 0;
+	margin: auto;
+	background: #000;
+	-webkit-transform-origin: bottom;
+	background: #FF4136;
+}
+
+#minutes {
+	position: absolute;
+	height: 200px;
+	width: 2px;
+	left: 0; right:0; bottom: 200px; top: 0px;
+	margin: auto;
+	background: #000;
+	-webkit-transform-origin: bottom;
+}
+
+#hours {
+	position: absolute;
+	height: 200px;
+	width: 2px;
+	left: 0; right: 0; bottom: 80px; top: 0px;
+	margin: auto;
+	background: #000;
+	-webkit-transform-origin: bottom;	
 }
